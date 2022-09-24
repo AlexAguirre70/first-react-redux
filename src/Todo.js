@@ -1,4 +1,3 @@
-import { iteratorSymbol } from 'immer/dist/internal'
 import React, { useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { addTodo, clearTodo } from './features/todoSlice'
